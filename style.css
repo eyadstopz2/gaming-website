@@ -1,0 +1,228 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+* {
+    font-family: arial;
+}
+div.maincontent {
+    height: 680px;
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+}
+div.joinnavbar {
+    background-color: black;
+}
+div.navbar a {
+    color: white;
+    margin: 20px;
+}
+div.navbar a.join {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+}
+div.maincontent div.details {
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+}
+div.details button {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: white;
+    color: darkturquoise;
+}
+div.upcoming h1 {
+    text-align: center;
+}
+div.games {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+div.game {
+    text-align: center;
+}
+div.game div.img {
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    background-image: url('images/pubg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+div.game2 div.img {
+    background-image: url('images/pubg.jpg');
+}
+div.game3 div.img {
+    background-image: url('images/pubg.jpg');
+}
+div.game4 div.img {
+    background-image: url('images/pubg.jpg');
+}
+
+div.maingame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 50px;
+    line-height: 23px;
+}
+div.maingame button {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: aqua;
+    color: white;
+    border: none;
+}
+div.maingame img {
+    margin-right: -100px;
+    border-radius: 20px;
+}
+
+div.postscontent h1, div.postscontent p {
+    text-align: center;
+}
+div.posts {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center
+}
+div.post {
+    margin: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+div.post p {
+    font-size: 15px;
+    text-align: left;
+}
+div.post p, div.post h5 {
+    display: inline-block;
+}
+div.post h3, div.post p, div.post h5{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+div.post div.img {
+    background-image: url('images/1.jpg');
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.pricing h2 {
+    text-align: center;
+}
+.prices {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.price {
+    width: 30%;
+    background-color: darkcyan;
+    color: white;
+    margin: 8px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 8px;
+}
+.price button {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.planprice {
+    background-color: darkblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.planprice h3 {
+    margin: 0;
+}
+
+
+
+.joinform {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.joinform .image {
+    width: 35%;
+}
+.joinform .form {
+    width: 65%;
+}
+.joinform .image {
+    background-image: url('images/fantasy%201.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 400px;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+form input, form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    display: block;
+    margin: 10px;
+}
+form {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    
+}
+form button {
+    background-color: blue;
+    color: white;
+}
+
+.footer {
+    color: white;
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
